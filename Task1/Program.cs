@@ -11,30 +11,35 @@ namespace Task1
     {
         static void Main(string[] args)
         {
-            //task1
-            //Console.Write("enter your name ");
-            //string name = Console.ReadLine();
-            //Console.WriteLine(name);
-            //task2
-            //double DVar = 2.2;
-            //Console.WriteLine(DVar);
-            //string StrVar = "hi";
-            //Console.WriteLine(StrVar);
-            //char ChVar = 'a';
-            //Console.WriteLine(ChVar);
-            //bool BoolVar = true;
-            //Console.WriteLine(BoolVar);
-            //int IntVar = 2;
-            //Console.WriteLine(IntVar);
-            //const double ConstVar = 3.14;
-            //Console.WriteLine(ConstVar);
-            //Task3
+            Console.WriteLine("Task1");
+            Console.Write("enter your name ");
+            string name = Console.ReadLine();
+            Console.WriteLine(name);
+            Console.WriteLine("Task2");
+
+
+            double DVar = 2.2;
+            Console.WriteLine(DVar);
+            string StrVar = "hi";
+            Console.WriteLine(StrVar);
+            char ChVar = 'a';
+            Console.WriteLine(ChVar);
+            bool BoolVar = true;
+            Console.WriteLine(BoolVar);
+            int IntVar = 2;
+            Console.WriteLine(IntVar);
+            const double ConstVar = 3.14;
+            Console.WriteLine(ConstVar);
+
+
+            Console.WriteLine("Task3");
             string[] arr = { " Hyundai", " Mitsubishi", " Toyota" };
             Console.WriteLine(arr[0]);
             Console.WriteLine(arr[1]);
             Console.WriteLine(arr[2]);
             Console.WriteLine(arr.Length);
-            //Task4
+
+            Console.WriteLine("Task4");
             Console.Write("enter your First name ");
             string fname = Console.ReadLine();
             Console.Write("enter your last name ");
@@ -43,7 +48,7 @@ namespace Task1
             string Byear = Console.ReadLine();
             Console.Write(fname+ lname+ Byear);
             Console.WriteLine();
-            //Task5
+            Console.WriteLine("Task5");
             int[] array = {0,1,2,3,4,5,6,7,8,9};
             Console.Write(array[0]);
             Console.Write(array[1]);
@@ -56,9 +61,9 @@ namespace Task1
             Console.Write(array[8]);
             Console.WriteLine(array[9]);
 
-            //Task6
-            int[] array1 = { 0, 1, 2};
-            Console.WriteLine(array[0]+ array[1]+ array[2]);
+            Console.WriteLine("Task6");
+            int[] array1 = { 2, 5, 8};
+            Console.WriteLine(array1[0]+ array1[1]+ array1[2]);
 
 
 
