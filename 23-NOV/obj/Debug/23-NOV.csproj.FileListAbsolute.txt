@@ -1,0 +1,8 @@
+C:\Users\dell\Desktop\daily solution\23-NOV\obj\Debug\23-NOV.csproj.AssemblyReference.cache
+C:\Users\dell\Desktop\daily solution\23-NOV\obj\Debug\23-NOV.csproj.SuggestedBindingRedirects.cache
+C:\Users\dell\Desktop\daily solution\23-NOV\obj\Debug\23-NOV.csproj.CoreCompileInputs.cache
+C:\Users\dell\Desktop\daily solution\23-NOV\bin\Debug\23-NOV.exe.config
+C:\Users\dell\Desktop\daily solution\23-NOV\bin\Debug\23-NOV.exe
+C:\Users\dell\Desktop\daily solution\23-NOV\bin\Debug\23-NOV.pdb
+C:\Users\dell\Desktop\daily solution\23-NOV\obj\Debug\23-NOV.exe
+C:\Users\dell\Desktop\daily solution\23-NOV\obj\Debug\23-NOV.pdb
