@@ -36,7 +36,7 @@ namespace _27_Nov
             {
                 if (Age > 60 || Age < 18)
                 {
-                    return "sorry ,your age not match with condition";
+                    return  $"sorry ,your age ({Age}) not match with condition";
                 }
                 else
                 {
@@ -60,7 +60,7 @@ namespace _27_Nov
             }
             static void Main(string[] args)
             {
-                MyClass obj = new MyClass("raghad", 2000, 19, "raghad@email", "female","0770555");
+                MyClass obj = new MyClass("raghad", 2000, 15, "raghad@email", "female","0770555");
                 Console.WriteLine(obj.Name);
                 Console.WriteLine(obj.id);
                 Console.WriteLine(obj.checkAge());
