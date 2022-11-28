@@ -45,11 +45,21 @@ namespace _28_Nov
 
             public void start_end()
             {
+                Console.Write("ON or OF");
                 string x = Console.ReadLine();
-                if (x == "start") { Console.WriteLine("ven ven"); }
-                else if(x=="end") { Console.WriteLine("Z'zzzzzzzzzzzzzzzzzzzzz"); }
+                if (x == "ON") { Console.WriteLine("ven ven"); }
+                else if(x== "OF") { Console.WriteLine("Z'zzzzzzzzzzzzzzzzzzzzz"); }
 
             }
+            public void Conv()
+            {
+                Console.Write(" enter in liter");
+                int x =Convert.ToInt32(Console.ReadLine())/20;
+                
+                Console.WriteLine($"{x}  k");
+
+            }
+
 
         }
         class test : Car
@@ -65,10 +75,7 @@ namespace _28_Nov
                 Color = color;
                 PalletNo = palletNo;
             }
-            public test()
-            {
-               
-            }
+            
 
 
         }
@@ -79,7 +86,7 @@ namespace _28_Nov
             test obj2 = new test("car_make", "Nissan", 2020, "red", "model", 1000, 5);
             obj2.TestReturn();
             obj2.start_end();
-
+            obj2.Conv();
             
             
         }
