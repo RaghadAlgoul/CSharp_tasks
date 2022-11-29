@@ -13,11 +13,11 @@ namespace _28_Nov
     {
         class Car
         {
-            public string Car_make { set; get; }
-            public string Typee { set; get; }
-            public int Year { set; get; }
-            public string Color { set; get; }
-            public string Model { set; get; }
+            public string Car_make;
+            public string Typee;
+            public int Year;
+            public string Color;
+            public string Model ;
             public int Price { set; get; }
             public int PalletNo { set; get; }
 
