@@ -6,6 +6,7 @@ using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 using System.Xml.Linq;
+using System.Globalization;
 
 namespace _29_N
 {
@@ -26,8 +27,16 @@ namespace _29_N
             }
             public Employee() { }
             public void Age() {
-                int age = 2022 - D_of_birth;
-                Console.WriteLine($"the age is : {age} ");
+                int localDate = DateTime.Now.Year;
+                if (D_of_birth > localDate)
+                {
+                    Console.WriteLine("year of birth wrong");
+                }
+                else {
+                    int age = localDate - D_of_birth;
+                    Console.WriteLine($"the age is : {age} ");
+                }
+                
 
             }
             public virtual void TestReturn()
@@ -62,8 +71,8 @@ namespace _29_N
 
         static void Main(string[] args)
         {
-            //Car obj=new Car("car_make", "Nissan", 2020, "red", "model", 1000, 5);
-            Manager obj2 = new Manager("raghad", 2000, 2000);
+
+            Manager obj2 = new Manager("raghad", 2000, 26);
             obj2.TestReturn();
             
 

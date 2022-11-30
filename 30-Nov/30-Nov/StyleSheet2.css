@@ -1,0 +1,53 @@
+﻿body {
+    background-color: #F5EBE0;
+}
+
+.butstyle{
+    border: solid 5px gray;
+    color: gray;
+    font-weight: bold;
+    border-radius: 25px;
+    background-color: #F5EBE0;
+    margin-right:30px;
+}
+#titel {
+    margin-left: 50%;
+    color: gray;
+    font-size:50px;
+}
+#operation{
+    margin-left:35%;
+}
+.numbers {
+    margin-left: 200px;
+}
+#sum {
+    background-color: red;
+    margin-right: 30px;
+    color: black;
+    font-weight: bold;
+    border-radius: 25px;
+    border-style: none;
+}
+#sub {
+    background-color: cornflowerblue;
+    color: black;
+    font-weight: bold;
+    border-radius: 25px;
+    border-style: none;
+}
+#mul {
+    background-color: yellow;
+    margin-right: 30px;
+    color: black;
+    font-weight: bold;
+    border-radius: 25px;
+    border-style: none;
+}
+#div {
+    background-color: green;
+    color: black;
+    font-weight: bold;
+    border-radius: 25px;
+    border-style: none;
+}
